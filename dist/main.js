@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("alert(\"development\")\nalert({\"NODE_ENV\":\"development\",\"apiKey\":\"w23io222929kdjfk\",\"domain\":\"example.domain.org\"}.apiKey)\n\ndocument.getElementById(\"content\").innerHTML = \"Hello World!\";\n\n//# sourceURL=webpack://my-restaurant-page/./src/index.js?");
+eval("document.getElementById(\"content\").innerHTML = \"Hello World!\";\n\n//# sourceURL=webpack://my-restaurant-page/./src/index.js?");
 
 /***/ })
 
