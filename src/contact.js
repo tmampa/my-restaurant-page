@@ -30,3 +30,5 @@ let contact = () => {
     let footer = document.querySelector('footer');
     body.insertBefore(container, footer);
 }
+
+export default contact;
