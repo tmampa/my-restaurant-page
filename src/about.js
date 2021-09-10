@@ -12,8 +12,8 @@ let about = () => {
   let tagline = document.createElement('p');
   tagline.classList.add('text');
 
-  headline.innerHTML = 'The Story of Tobago & Tripoli in San Diego';
-  tagline.innerHTML = 'Since 2020, Tobago & Tripoli has been nowhere near the forefront of San Diego\' culinary scene. We invite you to experience our one-of-a-kind \'deficient delights\' which bridge the gap between the epicurean and the impecunius.';
+  headline.innerHTML = 'The Story of Pizza Base';
+  tagline.innerHTML = 'We have been serving the best Pizza in the land since 2019';
 
   container.appendChild(headline);
   container.appendChild(tagline);
