@@ -1,26 +1,26 @@
-import nav from './nav';
-import footer from './footer';
+import nav from './nav.js';
+import footer from './footer.js';
 
-let home = () => {
-  let content = document.getElementById('content');
+const home = () => {
+  const content = document.getElementById('content');
   content.classList.add('home');
 
   if (!document.querySelector('nav')) {
-    let navbar = nav()
+    const navbar = nav();
     content.appendChild(navbar);
   }
-  let home = document.getElementById('home');
+  const home = document.getElementById('home');
   home.classList.add('active');
 
-  let container = document.createElement('div');
+  const container = document.createElement('div');
   container.classList.add('container');
-  let header = document.createElement('header');
-  let headline = document.createElement('h1');
+  const header = document.createElement('header');
+  const headline = document.createElement('h1');
   headline.innerHTML = 'Pizza Base';
   header.appendChild(headline);
   container.appendChild(header);
 
-  let tagline = document.createElement('p');
+  const tagline = document.createElement('p');
   tagline.innerHTML = 'The Best Pizza in the World';
   header.appendChild(tagline);
 
@@ -29,6 +29,6 @@ let home = () => {
   if (!document.querySelector('footer')) {
     footer();
   }
-}
+};
 
-export default home
+export default home;

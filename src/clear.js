@@ -1,12 +1,12 @@
-let clear = () => {
-  let content = document.getElementById('content');
-  let container = document.getElementsByClassName('container')[0];
+const clear = () => {
+  const content = document.getElementById('content');
+  const container = document.getElementsByClassName('container')[0];
   container.remove();
   content.className = '';
-  let buttons = document.getElementsByTagName('button');
-  for (let i = 0; i< buttons.length; i++) {
-    buttons[i].className = "";
+  const buttons = document.getElementsByTagName('button');
+  for (let i = 0; i < buttons.length; i += 1) {
+    buttons[i].className = '';
   }
-}
+};
 
 export default clear;

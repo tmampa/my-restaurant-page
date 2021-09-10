@@ -1,15 +1,15 @@
-let nav = () => {
-  let nav = document.createElement('nav');
-  let home = document.createElement('button');
+const nav = () => {
+  const nav = document.createElement('nav');
+  const home = document.createElement('button');
   home.innerHTML = 'Home';
   home.id = 'home';
-  let about = document.createElement('button');
+  const about = document.createElement('button');
   about.innerHTML = 'About';
   about.id = 'about';
-  let menu = document.createElement('button');
+  const menu = document.createElement('button');
   menu.innerHTML = 'Menu';
   menu.id = 'menu';
-  let contact = document.createElement('button');
+  const contact = document.createElement('button');
   contact.innerHTML = 'Contact Us';
   contact.id = 'contact';
   nav.appendChild(home);

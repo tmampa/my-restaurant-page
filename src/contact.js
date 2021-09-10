@@ -1,21 +1,21 @@
-let contact = () => {
-  let content = document.getElementById('content');
+const contact = () => {
+  const content = document.getElementById('content');
   content.classList.add('contact');
 
-  let contactBtn = document.getElementById('contact');
+  const contactBtn = document.getElementById('contact');
   contactBtn.classList.add('active');
 
-  let container = document.createElement('div');
+  const container = document.createElement('div');
   container.classList.add('container');
 
-  let headline = document.createElement('h1');
+  const headline = document.createElement('h1');
   headline.innerHTML = 'Get in Touch';
-  let tagline = document.createElement('p');
-  tagline.innerHTML = 'Give us call or email. Our chefs are ready to assist'
+  const tagline = document.createElement('p');
+  tagline.innerHTML = 'Give us call or email. Our chefs are ready to assist';
 
-  let phone = document.createElement('p');
+  const phone = document.createElement('p');
   phone.innerHTML = 'Phone: (619) 123-4567';
-  let email = document.createElement('p');
+  const email = document.createElement('p');
   email.innerHTML = 'Email: pizzabase@tripoli.com';
 
   container.appendChild(headline);
@@ -23,9 +23,9 @@ let contact = () => {
   container.appendChild(phone);
   container.appendChild(email);
 
-  let body = document.querySelector('body');
-  let footer = document.querySelector('footer');
+  const body = document.querySelector('body');
+  const footer = document.querySelector('footer');
   body.insertBefore(container, footer);
-}
+};
 
 export default contact;

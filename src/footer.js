@@ -1,9 +1,9 @@
-let footer = () => {
-  let footer = document.createElement('footer');
-  let footerText = document.createElement('p');
-  footerText.innerHTML = 'Copyright © Tshephang M. All rights reserved.'
+const footer = () => {
+  const footer = document.createElement('footer');
+  const footerText = document.createElement('p');
+  footerText.innerHTML = 'Copyright © Tshephang M. All rights reserved.';
   footer.appendChild(footerText);
-  let body = document.querySelector('body');
+  const body = document.querySelector('body');
   body.appendChild(footer);
 };
 
