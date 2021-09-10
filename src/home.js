@@ -16,12 +16,12 @@ let home = () => {
   container.classList.add('container');
   let header = document.createElement('header');
   let headline = document.createElement('h1');
-  headline.innerHTML = 'Tobago & Tripoli';
+  headline.innerHTML = 'Pizza Base';
   header.appendChild(headline);
   container.appendChild(header);
 
   let tagline = document.createElement('p');
-  tagline.innerHTML = 'Where Bougie Meets Broke';
+  tagline.innerHTML = 'The Best Pizza in the World';
   header.appendChild(tagline);
 
   content.appendChild(container);

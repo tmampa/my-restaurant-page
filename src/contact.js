@@ -11,12 +11,12 @@ let contact = () => {
   let headline = document.createElement('h1');
   headline.innerHTML = 'Get in Touch';
   let tagline = document.createElement('p');
-  tagline.innerHTML = 'Our team of elite chefs would love to hear from you. Give us a call or send us an email.'
+  tagline.innerHTML = 'Give us call or email. Our chefs are ready to assist'
 
   let phone = document.createElement('p');
   phone.innerHTML = 'Phone: (619) 123-4567';
   let email = document.createElement('p');
-  email.innerHTML = 'Email: tobago@tripoli.com';
+  email.innerHTML = 'Email: pizzabase@tripoli.com';
 
   container.appendChild(headline);
   container.appendChild(tagline);
